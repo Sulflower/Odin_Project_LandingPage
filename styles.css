@@ -1,0 +1,130 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav bar */
+.nav {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.nv, .ht, .cont1 {
+    color: rgba(255, 255, 255, 0.808)
+}
+.ht {
+    padding-top: 19px;
+}
+.hl {
+    width: 120px;
+    height: 120px;
+    margin-top: -20px;
+}
+.left {
+    display: flex;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+/* content1 */
+
+.cont1 {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    gap: 10px;
+
+}
+
+.mt1 {
+    width: 50%;
+    border-radius: 50px;
+}
+
+.butt {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.butt:hover, .butt1:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+/* content 2 */
+#c2h { 
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3%;
+    padding-bottom: 5%;
+}
+
+.si {
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.11);
+}
+
+/* content 3 */
+
+.cont3 {
+    background-color: #E5E7EB;
+}
+
+/* content 4*/
+
+.cont4 {
+    padding-left: 40%;
+}
+
+.c4 {
+    display: flex;
+    background-color: #3882F6;
+    width: 600px;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+}
+.butt1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    /* border: none; */
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-color: white;
+    cursor:pointer;
+}
